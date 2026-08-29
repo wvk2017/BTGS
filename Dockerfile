@@ -19,5 +19,5 @@ RUN tar zxvf btgs-x86_64-linux-gnu.tar.gz && \
     rm -rf btgs-x86_64-linux-gnu btgs-x86_64-linux-gnu.tar.gz
 
 # Start het bitcoingoldd-proces als hoofdproces (Exec-form)
-CMD ["/usr/bin/bitcoind", "-printtoconsole"]
+CMD ["/usr/bin/bitcoingoldd", "-printtoconsole"]
 
